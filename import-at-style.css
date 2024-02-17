@@ -1,0 +1,27 @@
+/* Stili per il form di login */
+#login-form {
+  margin-top: 20px;
+}
+
+#login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#login-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#login-form input[type="submit"] {
+  background-color: #0073aa;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: #005580;
+}
