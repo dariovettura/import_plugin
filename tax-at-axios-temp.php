@@ -48,14 +48,14 @@ get_header();
                     <?php get_template_part("template-parts/search/filters", "amministrazione"); ?>
                 </div>
                 <div class="col-lg-7 offset-lg-1 pt84">
-                    <?php
+                    <?php 
                     function getLastPartOfUrl()
                     {
                         $url = $_SERVER['REQUEST_URI'];
                         $parts = explode('/', rtrim($url, '/'));
                         $lastPart = end($parts);
                         $lastPart = str_replace("-", " ", $lastPart);
-                        return $lastPart;
+                        return $lastPart; 
                     }
                     function checkCategory($json, $innerArray)
                     {
